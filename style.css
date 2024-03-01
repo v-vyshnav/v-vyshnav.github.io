@@ -74,3 +74,22 @@ button:hover {
     font-weight: bold; /* Make the font thicker */
 
 }
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    .container {
+        padding: 10px; /* Reduce container padding */
+    }
+    h1 {
+        font-size: 24px; /* Decrease font size for h1 */
+    }
+    #timer {
+        font-size: 6em; /* Decrease font size for timer */
+    }
+    .buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        margin-top: 10px; /* Adjust spacing */
+    }
+    .buttons button {
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+}

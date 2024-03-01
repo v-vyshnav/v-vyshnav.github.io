@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('your-anime-background5.gif'); 
+    backdrop-filter: blur(10px); /* Add the path to your anime GIF */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* Set text color to white for better visibility on the background */
+    transition: all 5s ease;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#pomodoro-text {
+    color: #fff; /* Set text color to white for better visibility on the background */
+    transition: all 0.3s ease; /* Smooth transition effect for all properties */
+    font-weight: bold;
+}
+
+#pomodoro-text:hover {
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.timer-container {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px 0;
+    padding: 50px;
+    color: #fff; /* Set text color to white for better visibility on the background */
+    border-radius: 20px;/* Apply a blur effect to the background */
+
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background on hover */
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 12px; /* Add rounded corners */
+}
+
+button:hover {
+    background-color: #45a049;
+    color: #fff;
+}
+
+#start {
+    margin-right: 10px;
+}
+
+#reset:hover {
+    background-color: #d32f2f;
+    color: #ffffff;
+}
+#timer {
+    font-size: 11em; /* Increase font size to very large */
+    font-weight: bold; /* Make the font thicker */
+
+}
